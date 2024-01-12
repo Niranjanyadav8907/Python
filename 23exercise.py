@@ -1,3 +1,6 @@
+# Q--Ask user to input 3 numbers and you have to print average of three numbers using string formatting.
+
+Bonus :- try to take all three comma separated inputs in one line. In python short and simple code
 #num1 = input("enter first number :")
 #num2 = input("enter second number:")
 #num3 = input("enter third number :")
