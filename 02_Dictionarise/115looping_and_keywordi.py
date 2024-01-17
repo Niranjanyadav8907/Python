@@ -4,9 +4,10 @@
 user_info = {
     'name' :'Niranjan',
     'age': 22,
-    'fav_movie' : ['xyz', 'jhhkj', 'uouo'],
+    'fav_movies' : ['xyz', 'jhhkj', 'uouo'],
 
 }
+
 
 
 # check if key exit in dictionary
