@@ -16,5 +16,5 @@ example = ('one', 'two', 'three') # tuple me Parenthesis use krte hain
 print(example[:2])
 #but apko change nhi kr skte hain
 
-#example[0] = 1
+##example[0] = 1
 #print(example)
