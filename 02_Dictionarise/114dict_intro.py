@@ -43,8 +43,8 @@
 
 user_info = {
     'name' :'Niranjan',
-    'age' = 22,
-    'fav_movie' : ['xyz', 'jhhkj', 'uouo'],
+    'age': 22,
+    'fav_movies' : ['xyz', 'jhhkj', 'uouo'],
 
 }
 print(user_info['fav_movies']) # aise aap key naaam ke sath acsess kr skte hain
