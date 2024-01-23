@@ -1,0 +1,39 @@
+# define a function
+# input
+
+#num, iterable(tuple, list) containing numbers as args
+# example
+
+#nums = [1,2,3]
+#to_power(3,*nums)
+
+# output
+# list ---> [1, 8, 27]
+
+# if user didn't pass any args then give a user a message 'hey you didn't pass
+# args
+# else
+# return list
+#NOTE USE list comprehension
+
+
+## aap ke pass ek list hain aap kaise pta krenge ki list khali hain 
+## list is empty... list is not empty
+
+l = [1,2,3]
+if l:
+    print("not empty")
+else:
+    print("empty")
+
+
+## start Q solution
+    
+def  to_power(num, *args):
+    if args:
+        return [i**num for i in args]
+    else:
+        return "you didn't pass any args"
+    
+nums = [1,2,3]
+print(to_power(3, *nums))
