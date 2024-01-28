@@ -1,0 +1,31 @@
+
+# instance methode
+#Instance methods are the methods which act upon the instance variables 
+#of the class. Instance method need to know the memory address 
+#of the instance which is provided through self variable by default 
+#as first parameter for the instance method.
+# instance varible unic hain mtlb hr object apna alg insatance varible hoga 
+
+class person:
+    def __init__(self, first_name, last_name, age):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+
+    def _full_name(self):
+        return f"{self.first_name} {self.last_name}"
+    
+    def is_above_18(self):
+        return self.age>18
+    
+
+p1 = person('Niranjan', 'Kumar', 20)
+p2 = person('Arjun', 'jha', 20)
+#print(p1.is_above_18)
+print(p1._full_name())
+
+
+
+
+
+
